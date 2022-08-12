@@ -18,30 +18,30 @@ global.doc4 = 'application/zip'
 global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
-global.vcardowner = ['919744933034'] 
-global.ownername = "ꜱᴀᴄʜᴜ-ꜱᴇᴛᴛᴀɴ 🕊" 
-global.ytname = "YT: Sachu-Mods" 
-global.socialm = "GitHub: Sachu-Settan" 
-global.location = "United Kottayam 🕊, Kerala ✨, India" 
+global.vcardowner = ['918593074023'] 
+global.ownername = "𝑅𝛩𝐿𝐿𝛯𝛸👻" 
+global.ytname = "" 
+global.socialm = "http://instagram.com/_munavir._" 
+global.location = "Kerala ✨, India" 
 
 global.owner = ['919744933034']
 global.ownertag = ['919744933034']
-global.botname = '𝗞𝗮𝗻𝗮𝗽𝗽𝗶 𝗕𝗼𝘁 🍃' 
-global.linkz = "https://bit.ly/Bot-Zone" 
-global.websitex = "https://Sachu-Settan.github.io" // Web Coming Soon
-global.botscript = 'https://github.com/Sachu-Settan/Kanappi-Bot'
-global.reactmoji = "💝" 
+global.botname = '𝙺𝙰𝙽𝙰𝙿𝙿𝙸 𝙱𝙾𝚃🦋' 
+global.linkz = "http://instagram.com/_munavir._" 
+global.websitex = "http://wa.me/918593074023" // Web Coming Soon
+global.botscript = ''
+global.reactmoji = "👻" 
 global.themeemoji = "⚠"
 global.packname = " "
-global.author = "💖 ᴋᴀɴᴀᴘᴘɪ ʙᴏᴛ 🕊 \n⚠\n🎀\n👻\n🤙\n☣\n🍇\n🍒\n🥂\n"
-global.watermark = "👀 ᴋᴀɴᴀᴘᴘɪ ʙᴏᴛ 🕊"
+global.author = "💖 ᴋᴀɴᴀᴘᴘɪ ʙᴏᴛ 🕊 \n⚠\n🎀\n👻\n🤙\n☣\n💫\n📍\n🥂\n"
+global.watermark = "👀 ᴋᴀɴᴀᴘᴘɪ ʙᴏᴛ 🎈"
 global.orderTitle = "👻"
 global.themeeline = "│"
-global.themeline = "│✙"
+global.themeline = "│✧"
 global.themeendline = "│\n└──────────────────┈ ⳹"
 global.zeroapi = "UGSWgULd"
 global.linkprevtt = `${global.botname}\n⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻ `
-global.linkprevbody = `01:06 ━━━━⬤─────── 04:05`
+global.linkprevbody = `00:99 ━━━━⬤─────── 04:99`
 global.linkprevttimg = global.botname
 global.linkprevbodyimg = global.ownername
 
@@ -53,7 +53,7 @@ global.err4r = fs.readFileSync("./Bot Pic/Kanappi.jpg")
 global.thumb = fs.readFileSync("./Bot Pic/Kanappi.jpg") 
 global.widelog0 = fs.readFileSync(`./Bot Pic/${Kanappii}`)
 
-global.premium = ['919744933034'] 
+global.premium = ['918590822812','918593074023'] 
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
@@ -78,15 +78,15 @@ global.sessionfilename = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    caption: 'Here You Go !',
-    admin: 'This Feature Is Only For Admin !',
-    botAdmin: 'Bot Must Be Admin First !',
-    owner: 'This Feature Is Only For Owner !',
+    success: 'ᴅᴏɴᴇ✓',
+    caption: 'ʜᴇʀᴇ Yᴏᴜ ɢᴏ !',
+    admin: 'ᴛʜɪꜱ ꜰᴇᴀᴛᴜʀᴇɪꜱ ᴏɴʟy ꜰᴏʀ ᴀᴅᴍɪɴ !',
+    botAdmin: 'ʙᴏᴛ ᴍᴜꜱᴛ ʙᴇ ᴀᴅᴍɪɴ ꜰɪʀꜱᴛ !',
+    owner: 'ᴛʜɪꜱ ꜰᴇᴀᴛᴜʀᴇɪꜱ ᴏɴʟy ꜰᴏʀ ᴏᴡɴᴇʀ !',
     group: 'Feature Used Only For Groups !',
     private: 'Features Used Only For Private Chat !',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Prossesing....',
+    bot: 'ᴛʜɪꜱ ꜰᴇᴀᴛᴜʀᴇɪꜱ ᴏɴʟy ꜰᴏʀ ʙᴏᴛ',
+    wait: 'ᴡᴀɪᴛ ᴩʀᴏꜱꜱᴇꜱɪɴɢ...',
     error: 'Error !!',
     correctmediavid: 'This Feature Can Be Only Used For Video !!',
     viderr: 'Replay To A Video !',

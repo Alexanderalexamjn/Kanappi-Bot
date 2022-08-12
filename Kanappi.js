@@ -733,7 +733,7 @@ module.exports = Kanappi = async (Kanappi, m, chatUpdate, store) => {
 						hydratedFooterText: `${footertext}`,
 						hydratedButtons: [{
 							urlButton: {
-								displayText: 'Script 🔖',
+								displayText: 'ˢᵀᴵᶜᴷᴱᴿ',
 								url: `${botscript}`
 							}
 						}, {
@@ -1659,21 +1659,21 @@ Report Message: ${text}`
 						hydratedFooterText: `${Git}`,
 						hydratedButtons: [{
 							urlButton: {
-								displayText: '🌏 Bot Web 🌏',
+								displayText: 'ᴵᴺˢᵀᴬᴳᴿᴬᴹ',
 								url: '${botweb}'
 							},
-							urlButton: {
-								displayText: 'GitHub',
+							callButton: {
+								displayText: 'ˢᶜᴿᴵᴾᵀ',
 								url: '${sc}'
 							}
 						}, {
 							quickReplyButton: {
-								displayText: '💖',
+								displayText: 'Hello',
 								buttonId: '❤️'
 							}
 						}, {
 							quickReplyButton: {
-								displayText: '🙂',
+								displayText: '😊',
 								buttonId: '❤️'
 							}
 						}]
@@ -1726,27 +1726,27 @@ Report Message: ${text}`
 			let footertext = lang.Menu(pushname)
 			let btn = [{
 				urlButton: {
-					displayText: '🌏 Bot Web 🌏',
+					displayText: 'ᴵᴺˢᵀᴬᴳᴿᴬᴹ',
 					url: `${websitex}`
 				}
 			}, {
 				callButton: {
-					displayText: 'Script 🍜',
-					url: `${botscript}`
+					displayText: 'ˢᶜᴿᴵᴾᵀ',
+					url: `91881888`
 				}
 			}, {
 				quickReplyButton: {
-					displayText: 'All Menu 🍱',
+					displayText: 'ᴬᴸᴸ ᴹᴱᴺᵁ',
 					id: 'allmenu'
 				}
 			}, {
 				quickReplyButton: {
-					displayText: 'List Menu 🍢',
+					displayText: 'ᴸᴵˢᵀ ᴹᴱᴺᵁ',
 					id: 'command'
 				}
 			}, {
 				quickReplyButton: {
-					displayText: 'Owner 🤣',
+					displayText: 'ᴼᵂᴺᴱᴿ',
 					id: 'owner'
 				}
 			}]
@@ -1762,31 +1762,31 @@ Report Message: ${text}`
 			} else if (setbot.templateDocument) {
 				let buttonmenu = [{
 						urlButton: {
-							displayText: `🌏 Bot Web 🌏`,
+							displayText: `ᴵᴺˢᵀᴬᴳᴿᴬᴹ`,
 							url: `${websitex}`
 						}
 					},
 					{
 						urlButton: {
-							displayText: `Script 🍜`,
+							displayText: `ˢᶜᴿᴵᴾᵀ`,
 							url: `${botscript}`
 						}
 					},
 					{
 						quickReplyButton: {
-							displayText: `All Menu 🍱`,
+							displayText: `ᴬᴸᴸ ᴹᴱᴺᵁ`,
 							id: 'allmenu'
 						}
 					},
 					{
 						quickReplyButton: {
-							displayText: `List Menu 🍢`,
+							displayText: `ᴸᴵˢᵀ ᴹᴱᴺᵁ`,
 							id: 'command'
 						}
 					},
 					{
 						quickReplyButton: {
-							displayText: `Owner 🤣`,
+							displayText: `ᴼᵂᴺᴱᴿ`,
 							id: 'owner'
 						}
 					}
@@ -1813,27 +1813,27 @@ Report Message: ${text}`
 							hydratedFooterText: `${footertext}`,
 							hydratedButtons: [{
 								urlButton: {
-									displayText: '❣ Bot Web 🌏',
+									displayText: 'ᴵᴺˢᵀᴬᴳᴿᴬᴹ',
 									url: `${websitex}`
 								}
 							}, {
 								urlButton: {
-									displayText: 'Script 🔖',
+									displayText: 'ˢᵀᴵᶜᴷᴱᴿ',
 									url: `${botscript}`
 								}
 							}, {
 								quickReplyButton: {
-									displayText: '⚠ All Menu ⚠',
+									displayText: 'ᴬᴸᴸ ᴹᴱᴺᵁ',
 									id: `${prefix}allmenu`
 								}
 							}, {
 								quickReplyButton: {
-									displayText: '🤖 List Menu ✨',
+									displayText: 'ᴸᴵˢᵀ ᴹᴱᴺᵁ',
 									id: `${prefix}command`
 								}
 							}, {
 								quickReplyButton: {
-									displayText: '🙋‍♂️ Owner 🐱‍💻',
+									displayText: 'ᴼᵂᴺᴱᴿ',
 									id: `${prefix}owner`
 								}
 							}]
@@ -1859,139 +1859,139 @@ Report Message: ${text}`
 					footerText: `${global.botname}`,
 					listType: "SINGLE_SELECT",
 					sections: [{
-							"title": "Initial Features Of Bot 🦄",
+							"title": "Initial Features Of Bot",
 							"rows": [{
-								"title": "Other ☕",
+								"title": "Other",
 								"description": "Displays The List Of Other Features",
 								"rowId": `${prefix}othermenu`
 							}]
 						},
 						{
-							"title": "Bot Features ❤️",
+							"title": "Bot Features",
 							"rows": [{
-									"title": "All Menu 🥀",
+									"title": "All Menu",
 									"description": "Displays The List Of All The Features!",
 									"rowId": `${prefix}allmenu`
 								},
 								{
-									"title": "Owner Menu 💠",
+									"title": "Owner Menu",
 									"description": "Displays The List Of Owner Features",
 									"rowId": `${prefix}ownermenu`
 								},
 								{
-									"title": "Group Menu ✨",
+									"title": "Group Menu",
 									"description": "Displays The List Of Main Features",
 									"rowId": `${prefix}groupmenu`
 								},
 								{
-									"title": "Maker Menu 🌈",
+									"title": "Maker Menu",
 									"description": "Displays The List Of Logo Making Features",
 									"rowId": `${prefix}makermenu`
 								},
 								{
-									"title": "Download Menu ↘️",
+									"title": "Download Menu",
 									"description": "Displays The List Of Download Features",
 									"rowId": `${prefix}downloadmenu`
 								},
 								{
-									"title": "Sticker Menu 🃏",
+									"title": "Sticker Menu",
 									"description": "Displays The List Of Sticker Features",
 									"rowId": `${prefix}indomenu`
 								},
 								{
-									"title": "Search Menu 🔎",
+									"title": "Search Menu",
 									"description": "Displays The List Of Searching Features",
 									"rowId": `${prefix}searchmenu`
 								},
 								{
-									"title": "EFX/BGM Menu 🎵",
+									"title": "EFX/BGM Menu",
 									"description": "Displays The List Of EFX/BGM Features",
 									"rowId": `${prefix}efxmenu`
 								},
 								{
-									"title": "GFX Menu 🌈",
+									"title": "GFX Menu",
 									"description": "Displays The List Of Logo (DP) Making Features",
 									"rowId": `${prefix}gfxmenu`
 								},
 								{
-									"title": "Tool Menu ⚙️",
+									"title": "Tool Menu",
 									"description": "Displays The List Of Tool Features",
 									"rowId": `${prefix}toolmenu`
 								},
 								{
-									"title": "Random Image Menu 🌆",
+									"title": "Random Image Menu",
 									"description": "Displays The List Of Random Image Features",
 									"rowId": `${prefix}randomimagemenu`
 								},
 								{
-									"title": "Image Effect Menu 🖼️",
+									"title": "Image Effect Menu",
 									"description": "Displays The List Of Image Effect Features",
 									"rowId": `${prefix}imageeffectmenu`
 								},
 								{
-									"title": "Anime Menu 😘",
+									"title": "Anime Menu",
 									"description": "Displays The List Of Random Anime Features",
 									"rowId": `${prefix}animemenu`
 								},
 								{
-									"title": "Emote Menu 😀",
+									"title": "Emote Menu",
 									"description": "Displays The List Of Emote Features",
 									"rowId": `${prefix}emotemenu`
 								},
 								{
-									"title": "Anime Sticker Menu ☺️",
+									"title": "Anime Sticker Menu️",
 									"description": "Displays The List Of Anime Sticker Features",
 									"rowId": `${prefix}animestickermenu`
 								},
 								{
-									"title": "Nsfw Menu 🤓",
+									"title": "Nsfw Menu",
 									"description": "Displays The List Of Nsfe Features",
 									"rowId": `${prefix}nsfwmenu`
 								},
 								{
-									"title": "Fun Menu 🕺",
+									"title": "Fun Menu",
 									"description": "Displays The List Of Fun Features",
 									"rowId": `${prefix}funmenu`
 								},
 								{
-									"title": "Game Menu 🎮",
+									"title": "Game Menu",
 									"description": "Displays The List Of Game Features",
 									"rowId": `${prefix}indomenu`
 								},
 								{
-									"title": "Convert Menu ⚒️",
+									"title": "Convert Menu",
 									"description": "Displays The List Of Convert Features",
 									"rowId": `${prefix}convertmenu`
 								},
 								{
-									"title": "Database Menu ♻️",
+									"title": "Database Menu️",
 									"description": "Displays The List Of Database Features",
 									"rowId": `${prefix}databasemenu`
 								},
 								{
-									"title": "Indo Menu  🦜",
+									"title": "Indo Menu",
 									"description": "Displays The List Of Indo Features",
 									"rowId": `${prefix}indomenu`
 								},
 								{
-									"title": "Horoscope Menu 🕊️",
+									"title": "Horoscope Menu️",
 									"description": "Displays The List Of Horoscope Features",
 									"rowId": `${prefix}indohoroscopemenu`
 								}
 							]
 						},
 						{
-							"title": "Chat With Fellow Users 🌝",
+							"title": "Chat With Fellow Users",
 							"rows": [{
-								"title": "Anonymous Chat Menu 🙎🏻‍♂️",
+								"title": "Anonymous Chat Menu",
 								"description": "Displays The List Of Anonymous Chat Features",
 								"rowId": `${prefix}anonymousmenu`
 							}]
 						},
 						{
-							"title": "Credit ©️",
+							"title": "Credit️",
 							"rows": [{
-								"title": "Thanks To ❤️",
+								"title": "Thanks To️",
 								"description": "Displays The List Of Credit Of The Bot !!",
 								"rowId": `${prefix}tqtt`
 							}]
@@ -2022,22 +2022,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'All Menu')
 			await Kanappi.send5ButImg(from, `${Allmenuu}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2058,22 +2058,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Owner Menu')
 			await Kanappi.send5ButImg(from, `${lang.OwnerMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2094,22 +2094,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Group Menu')
 			await Kanappi.send5ButImg(from, `${lang.GroupMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2130,22 +2130,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Rpg Menu')
 			await Kanappi.send5ButImg(from, `${lang.RpgMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2166,22 +2166,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'GFX Menu')
 			await Kanappi.send5ButImg(from, `${lang.GFXMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2202,22 +2202,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Maker Menu')
 			await Kanappi.send5ButImg(from, `${lang.MakerMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2238,22 +2238,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Download Menu')
 			await Kanappi.send5ButImg(from, `${lang.DownloaderMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2274,22 +2274,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Search Menu')
 			await Kanappi.send5ButImg(from, `${lang.SearchMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2310,22 +2310,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Convert Menu')
 			await Kanappi.send5ButImg(from, `${lang.ConvertMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2346,22 +2346,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Random Image Menu')
 			await Kanappi.send5ButImg(from, `${lang.RandomPicMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2383,22 +2383,22 @@ Report Message: ${text}`
 			})
 			await Kanappi.send5ButImg(from, `${lang.EmoteMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2419,22 +2419,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Image Effect Menu')
 			await Kanappi.send5ButImg(from, `${lang.ImgEffectMenu(pushname ,prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2455,22 +2455,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Anime Menu')
 			await Kanappi.send5ButImg(from, `${lang.AnimeMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2491,22 +2491,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Sticker Menu')
 			await Kanappi.send5ButImg(from, `${lang.StickerMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2527,22 +2527,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Anime Sticker Menu')
 			await Kanappi.send5ButImg(from, `${lang.AnimeStickerMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2563,22 +2563,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Nsfw Menu')
 			await Kanappi.send5ButImg(from, `${lang.NSFWMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2599,22 +2599,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Fun Menu')
 			await Kanappi.send5ButImg(from, `${lang.FunMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2640,17 +2640,17 @@ Report Message: ${text}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2671,22 +2671,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Game Menu')
 			await Kanappi.send5ButImg(from, `${lang.GameMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2707,22 +2707,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Anonymous Menu')
 			await Kanappi.send5ButImg(from, `${lang.AmogusMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2743,22 +2743,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Tool Menu')
 			await Kanappi.send5ButImg(from, `${lang.ToolMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2779,22 +2779,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Database Menu')
 			await Kanappi.send5ButImg(from, `${lang.DataMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2815,22 +2815,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Indo Menu')
 			await Kanappi.send5ButImg(from, `${lang.IndoMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2851,22 +2851,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Indo Horoscope Menu')
 			await Kanappi.send5ButImg(from, `${lang.IndoHoroScopeMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -2887,22 +2887,22 @@ Report Message: ${text}`
 			var unicorn = await getBuffer(picak + 'Other Menu')
 			await Kanappi.send5ButImg(from, `${lang.OtherMenu(pushname, prefix)}` + '' + ' ', `${botname}`, unicorn, [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Donate 🍜",
+					"displayText": "ᴰᴼᴺᴬᵀᴱ",
 					"id": 'donate'
 				}
 			}, {
 				"quickReplyButton": {
-					"displayText": "Owner 👤",
+					"displayText": "ᴼᵂᴺᴱᴿ",
 					"id": 'owner'
 				}
 			}])
@@ -5699,12 +5699,12 @@ ${global.themeendline}
 			let anu = await store.chats.all().map(v => v.id)
 			let buttons = [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
-				"urlButton": {
-					"displayText": "Script🔖",
+				"callButton": {
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}]
@@ -5816,12 +5816,12 @@ ${global.themeendline}
 			let anu = groups.map(v => v.id)
 			let buttons = [{
 				"urlButton": {
-					"displayText": "🌏 Bot Web 🌏",
+					"displayText": "ᴵᴺˢᵀᴬᴳᴿᴬᴹ",
 					"url": `${websitex}`
 				}
 			}, {
 				"urlButton": {
-					"displayText": "Script🔖",
+					"displayText": "ˢᶜᴿᴵᴾᵀ",
 					"url": `${botscript}`
 				}
 			}]
@@ -11029,7 +11029,7 @@ ${global.themeemoji} Download Url : ${url}`,
 				listMessage: {
 					title: `Hi ${pushname} Bro ✨\n`,
 					description: `*Please Choose A Song / Video 👻*\n\n`,
-					buttonText: "Click Here 🕊",
+					buttonText: "Click Here 🦋",
 					footerText: `\`\`\`${global.watermark}\`\`\``,
 					listType: "SINGLE_SELECT",
 					sections: [{
@@ -11650,7 +11650,7 @@ _For HD quality you can click the button below_`
 			if (isBanChat) return reply(mess.banChat)
 			reply(mess.wait)
 			let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
-			if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/Sachu-Settan/Kanappi`)
+			if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/rolex/heh`)
 			if (!regex1.test(args[0])) return reply(mess.linkm)
 			let [, user, repo] = args[0].match(regex1) || []
 			repo = repo.replace(/.git$/, '')
