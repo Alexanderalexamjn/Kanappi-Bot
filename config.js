@@ -22,10 +22,10 @@ global.vcardowner = ['918593074023']
 global.ownername = "𝑅𝛩𝐿𝐿𝛯𝛸👻" 
 global.ytname = "" 
 global.socialm = "http://instagram.com/_munavir._" 
-global.location = "Kerala ✨, India" 
+global.location = "Kerala,India" 
 
-global.owner = ['919744933034']
-global.ownertag = ['919744933034']
+global.owner = ['918593074023']
+global.ownertag = ['918593074023']
 global.botname = '𝙺𝙰𝙽𝙰𝙿𝙿𝙸 𝙱𝙾𝚃🦋' 
 global.linkz = "http://instagram.com/_munavir._" 
 global.websitex = "http://wa.me/918593074023" // Web Coming Soon
