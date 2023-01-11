@@ -19,7 +19,7 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 global.vcardowner = ['918593074023'] 
-global.ownername = "𝑅𝛩𝐿𝐿𝛯𝛸👻" 
+global.ownername = "ᴰᴼᴹᴵᴻᴵᴄ👻" 
 global.ytname = "" 
 global.socialm = "http://instagram.com/_munavir._" 
 global.location = "Kerala,India" 
